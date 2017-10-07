@@ -7,20 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>node_chat</title>
     </head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/index.js"></script>
 <body>
     <p>Node_chat in the works!</p>
 
-    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
-    <script>
-        var socket = io();
 
-        socket.on('connect', () => {
-           console.log('connected to server');
-        });
-
-        socket.on('disconnect', () => {
-            console.log('Disconnected from the server.');
-        });
-    </script>
 </body>
 </html>
