@@ -3,3 +3,4 @@
 
 ## To Do
 #### Add individual usernames, add timestamps, add chatrooms.
+#### Mobile responsiveness
